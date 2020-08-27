@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stelesheet" href="/css/reset.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+
+<body>
+    <header>
+        Consumo de API para empresa Alertrack.
+        <br> <br>
+    </header>
+
+    <div>
+        <form action="http://localhost:3000/" method="GET">       
+                
+        <label class="input-group-text" for="tabela">Pesquisa de Tabelas</label>
+        
+        <div id="opicoes">
+
+        <select>
+            <option disabled selected>Selecione uma opção...</option>
+
+            <option value="router.get('/companies', (req, res) =>{
+                execSQLQuery('SELECT * FROM COMPANIES', res);
+                 })">Companies</option>
+
+            <option value="router.get('/endereco', (req, res) =>{
+                execSQLQuery('SELECT * FROM ENDERECO', res);
+                })">Endereco</option>
+
+            <option value=" router.get('/pessoas', (req, res) =>{
+                execSQLQuery('SELECT * FROM PESSOAS', res);
+                })">Pessoas</option>
+
+            <option value="TELEFONE">Telefone</option>
+
+        </select>
+
+        </div>
+
+            <br>
+            <input type="submit" value="Buscar" name="submit" onclick="busca('value')"> 
+            <br>
+            <button onclick="busca('value')">Buscar</button>
+            <br> <br>
+        </form>
+        
+
+    </div>
+
+    <footer>
+        <script type="text/javascript" href="./js/index.js"></script>
+        <script type="text/javascript" href="./js/busca.js"></script>
+        <script type="text/javascript" href="./js/bootstrap.js"></script>
+        <script type="text/javascript" href="./js/jquery.js"></script>    
+    </footer>
+
+</body>
+
+  
+</html>

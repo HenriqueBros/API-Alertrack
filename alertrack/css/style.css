@@ -1,0 +1,53 @@
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+header{
+    position: relative;
+    background-color: rgba(2222, 2235, 9429, 0,1);
+}
+
+body {
+color: #333333;
+font-family: "arial", "Lucida Grande", sans-serif;
+}
+
+footer {
+    background-color: rgba(77, 82, 80, 0.39);
+    clear: both;
+    padding: 20px;
+}
+
+footer .container {
+    position: relative;
+}
+
+.social {
+    position: relative;
+    top: 12px;
+    right: 0;
+}
+
+.social li{
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.social a {
+    /* tamanho da imagem */
+    height: 32px;
+    width: 32px;
+    /* image replacement */
+    display: block;
+    text-indent: 10px;
+}
+
+input {
+    color: rgb(137, 199, 240);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10vh;
+    box-shadow: cadetblue;
+    
+}

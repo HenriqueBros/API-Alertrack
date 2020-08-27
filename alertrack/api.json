@@ -1,0 +1,70 @@
+[
+    {
+      "cpf": "644.183.780-30",
+      "name": "Adriano da Silva Souza",
+      "born_at": "1992-02-03",
+      "occupation": "Engenheiro da Computação",
+      "address": [
+        {
+          "zipcode": "29160510",
+          "number": 14,
+          "complement": "APP 201"
+        }
+      ],
+      "companies": [
+        {
+          "cnpj": "06.990.590/0001-23",
+          "name": "GOOGLE LTDA"
+        }
+      ],
+      "phones": [
+        "55279818299",
+        "0279818288",
+        "(27)981828822"
+      ]
+    },
+    {
+      "cpf": "474.669.350-10",
+      "name": "Paulo Souza Cruz",
+      "born_at": "1978-10-03",
+      "occupation": "Empreendedor",
+      "address": [
+        {
+          "zipcode": "29090-290",
+          "number": 22,
+          "complement": "CASA"
+        }
+      ],
+      "companies": [
+        {
+          "cnpj": "975276040001-22",
+          "name": "CACAU SHOW"
+        }
+      ],
+      "phones": [
+        "1181818292"
+      ]
+    },
+    {
+      "cpf": "363.780.800-54",
+      "name": "Maria da Juda Mendes",
+      "born_at": "1991-04-20",
+      "occupation": "Professora",
+      "address": [
+        {
+          "zipcode": "24717250",
+          "number": 1002,
+          "complement": "CONDOMINIO"
+        }
+      ],
+      "companies": [
+        {
+          "cnpj": "10.475.363/0001-37",
+          "name": "PROG INFORMATICA LTDA PROG-INFO"
+        }
+      ],
+      "phones": [
+        "27981882222"
+      ]
+    }
+  ]
